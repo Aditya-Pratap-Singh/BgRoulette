@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Random Background",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Random Background",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://api.unsplash.com/"
+  ]
+}
